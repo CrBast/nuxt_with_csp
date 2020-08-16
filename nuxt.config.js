@@ -5,6 +5,19 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   mode: 'universal',
+  render: {
+    csp: true,
+    hashAlgorithm: 'sha256',
+    policies: {
+      'script-src': ["'self'"],
+      'object-src': ["'none'"],
+      'font-src': ["'self'"],
+      'style-src': ["'self'"],
+      'base-uri': ["'self'"]
+    },
+    reportOnly: false,
+    addMeta: true
+  },
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
