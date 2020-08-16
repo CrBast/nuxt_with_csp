@@ -23,4 +23,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 Source : 
 
 https://www.cspvalidator.org/#url=https://www.okuna.io/
+
 https://nuxtjs.org/guides/configuration-glossary/configuration-render#csp
